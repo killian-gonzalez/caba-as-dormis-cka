@@ -1,0 +1,86 @@
+	body {
+	background:url(1.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed; 
+	background-position:center center;
+	background-size: 100% 100%;
+	font-family: georgia, times, serif;
+	color:#000000;
+	font-size:18px;
+	line-height:30px; 
+	margin:0; 	
+
+}
+h1 {
+	color:#FF6C00  ;
+}
+.header {
+	background:#2E0909; 
+	color:white;
+	padding:10px;
+	position:fixed; 
+	left:0;
+	top:0;
+	width:100%;
+	z-index:2000;}
+	.header a {
+	color:white;
+	text-decoration:none;
+}
+
+		.logo-nav-container {
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+	}
+	.navigation ul {
+		margin:0;
+		padding:0;
+		list-style:none; 
+	}
+.navigation ul li{
+	display:inline-block;
+}
+.navigation ul li a{
+		display:block; 
+		padding:5px 10px;
+		transition: all 0,4s linear;
+		border-radius:5px; 
+	}
+	.navigation ul li a:hover{
+		background:#650C0C ; 
+	}
+	.logo {
+		letter-spacing:2px; 
+		font-size:30px; 
+		z-index:2000 }
+
+		.social {
+		position: fixed;
+		right:0;
+		top:200px;
+		
+	}
+	.social ul {
+		list-style:none;
+		
+	}
+	.social ul li a{
+		display:inline-block;
+		color:#FFFFFF;
+		background:#000000;
+		padding:10px 15px ;
+		text-decoration:none;
+}
+		.social ul li a:hover{
+		padding:10px 30px; 
+		background: #650C0C;
+	}
+	.social ul li .icon-facebook2 {background:#3b5998;}
+	.social ul li .icon-instagram {background:##cd486b;}
+	.social ul li .icon-mail2 {background:#666666;}
+	.social ul li .icon-telegram {background:#0088cc;}
+
+	hr {
+		content: center;
+	}
